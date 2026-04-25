@@ -1,5 +1,6 @@
 <?php
-require_once "../day8/model/User.php";
+namespace App\controller;
+use App\Model\User;
 class UserController
 {
     public function index()
